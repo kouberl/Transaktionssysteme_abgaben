@@ -1,0 +1,70 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate,amsmath}
+\usepackage{ngerman}
+
+\title{Transaktionssysteme -- Übungsblatt 1}
+\subtitle{Gruppe 1, Team Zoidberg}
+\author{Koppera Thomas \\ 51366
+ \and Kinseher Josef \\ 
+ \and Treuberg Matthias \\ 51164}
+\date{ }
+
+\begin{document}
+  \maketitle
+  
+\section*{Aufgabe 1}
+\begin{enumerate}[a)]
+\item
+\begin{itemize}
+\item
+Atomizität (Atomicity)\\
+Transaktionen sind atomar, d.h. Transaktionen werden entweder ganz
+oder garnicht ausgeführt.
+\item
+Consistenz (Consistency)\\
+Transaktionen überführen einen korrekten Systemzustand wieder in
+einen korrekten Systemzustand.
+\item
+Isolation\\
+Transaktionen werden durch die Existenz anderer (parallel laufender)
+Transaktionen nicht beeinflusst und beeinflussen diese nicht.
+Insbesondere "'sehen"' Transaktionen nur konsistente Daten.
+\item
+Dauerhaftigkeit (Durability)\\
+Wirksam gewordene Änderungen, die von einer Transaktion veranlasst
+worden sind, sind dauerhaft, d.h. sie überdauern auch Fehler beim
+Datenserver oder im Kommunikationsnetz.
+\end{itemize}
+
+\item
+\begin{itemize}
+\item
+Beispiel Banktransaktion: Einem wird Geld abgezogen, der andere bekommt aber wegen Systemcrash das Geld nicht.
+\item
+Beispiel Bank: Kontostand besteht nach Transaktion aus einem "'Buchstabenwert"'.
+\item
+Beispiel Bank: Eine Transaktion wird nicht ausgeführt, weil bereits eine andere Banktransaktion ausgeführt wird.
+\item
+Beispiel Bank: Bankkonto leer nach Crash.
+\end{itemize}
+
+
+\end{enumerate}
+
+\section*{Aufgabe 2}
+\begin{enumerate}[a)]
+\item MyISAM kann keine der vier ACID-Eigenschaften garantieren.
+\item Isolation
+\item Wenn ich mich nur auf Lesezugriffe beschränke.
+\item Bei kleinen Datenbanken oder Anwendungen wo viel und oft Daten geändert werden: Wordpress, Joomla
+\item Bei größeren Projekten bei denen Sicherheit vor Performance steht.
+
+\end{enumerate}
+
+\section*{Aufgabe 3}
+
+\begin{enumerate}[a)]
+\item
+\item
+\end{enumerate}
