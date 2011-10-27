@@ -1,0 +1,76 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate,amsmath}
+
+\title{Transaktionssysteme -- Übungsblatt 3}
+\subtitle{Gruppe 1, Team Zoidberg}
+\author{Koppera Thomas \\ 51366
+ \and Kinseher Josef \\ 
+ \and Treuberg Matthias \\ 51164}
+\date{ }
+
+\begin{document}
+  \maketitle
+  
+\section*{Aufgabe 1}
+\begin{enumerate}[a)]
+\item
+$S := w_0(x)w_0(y)w_0(z)r_1(y)r_2(y)w_1(y)r_3(z)r_2(x)w_2(x)w_1(x)c_1 c_2 c_3$
+\begin{align*}
+H_S(w_0(x)) &= f_0^x()\\
+H_S(w_0(y)) &= f_0^y()\\
+H_S(w_0(z)) &= f_0^z()\\
+H_S(r_1(y)) &= H_S(w_0(y)) = f_0^y()\\
+H_S(r_2(y)) &= H_S(w_0(y)) = f_0^y()\\
+H_S(w_1(y)) &= H_S(r_1(y),r_2(y)) = f_1^y(f_0^y(),f_0^y())\\
+H_S(r_3(z)) &= H_S(w_0(z)) = f_0^z()\\
+H_S(w_3(z)) &= H_S(r_3(z)) = f_3^z(f_0^z())\\
+H_S(r_2(x)) &= H_S(w_0(x)) = f_0^x()\\
+H_S(w_2(x)) &= H_S(r_2(x)) = f_2^x(f_0^x())\\
+H_S(w_1(x)) &= H_S(r_2(x)) = f_1^x(f_0^x())\\
+\end{align*}
+\item
+\end{enumerate}
+
+\section*{Aufgabe 2}
+$S := w_0(x)w_0(y)w_0(z)c_0r_1(x)r_2(x)w_2(y)r_3(x)c_1r_2(z)w_3(z)c_3w_2(z)c_2$
+\begin{enumerate}[a)]
+\item
+\begin{align*}
+H_S(w_0(x)) &= f_0^x()\\
+H_S(w_0(y)) &= f_0^y()\\
+H_S(w_0(z)) &= f_0^z()\\
+H_S(r_1(x)) &= H_S(w_0(x)) = f_0^x()\\
+H_S(r_2(x)) &= H_S(w_0(x)) = f_0^x()\\
+H_S(w_2(y)) &= f_2^y()\\
+H_S(r_3(x)) &= H_S(w_0(x)) = f_0^x()\\
+H_S(r_2(z)) &= H_S(w_0(z)) = f_0^z()\\
+H_S(w_3(z)) &= H_S(r_2(z)) = f_3^z(f_0^z())\\
+H_S(w_2(z)) &= H_S(r_2(z)) = f_2^z(f_0^z())\\
+\end{align*}
+
+\item
+\begin{align*}
+H[S](x) &= H_S(w_0(x)) = f_0^x()\\
+H[S](y) &= H_S(w_2(y)) = f_2^y()\\
+H[S](z) &= H_S(w_2(z)) = f_2^z(f_0^z())\\
+\end{align*}
+
+\item 
+$S' := w_0(x)w_0(y)w_0(z)c_0w_2(y)c_1r_2(z)c_3w_2(z)c_2$
+\end{enumerate}
+
+\section*{Aufgabe 3}
+
+\begin{enumerate}[a)]
+\item
+
+\end{enumerate}
+
+\section*{Aufgabe 4}
+\begin{enumerate}[a)]
+\item
+\item
+\end{enumerate}
+\end{document}
+

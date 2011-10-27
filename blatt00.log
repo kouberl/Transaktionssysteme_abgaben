@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.20)  26 OCT 2011 08:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.20)  26 OCT 2011 08:49
 entering extended mode
  %&-line parsing enabled.
-**blatt01.tex
-(./blatt01.tex
+**blatt00.tex
+(./blatt00.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -374,58 +374,40 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf-texlive/tex/generic/german/ngerman.sty v2.5e 1998-07-08
-Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
-\grmnU@D=\dimen112
-ngerman -- \language number for naustrian undefined, default 17 used.
-)
-(./blatt01.aux)
-\openout1 = `blatt01.aux'.
+No file blatt00.aux.
+\openout1 = `blatt00.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
-
-Overfull \hbox (10.0457pt too wide) in paragraph at lines 45--47
-[]\OT1/cmr/m/n/10.95 Beispiel Bank: Kon-to-stand be-steht nach Trans-ak-ti-on a
-us ei-nem \Buchstabenwert\. 
- []
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./blatt01.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./blatt00.aux) ) 
 Here is how much of TeX's memory you used:
- 2141 strings out of 493848
- 28304 string characters out of 1152823
- 105614 words of memory out of 3000000
- 5435 multiletter control sequences out of 15000+50000
- 7042 words of font info for 26 fonts, out of 3000000 for 9000
+ 1938 strings out of 493848
+ 25834 string characters out of 1152823
+ 99521 words of memory out of 3000000
+ 5241 multiletter control sequences out of 15000+50000
+ 6785 words of font info for 25 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 35i,6n,35p,248b,256s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb>
-Output written on blatt01.pdf (2 pages, 55995 bytes).
+ 35i,6n,35p,248b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on blatt00.pdf (1 page, 35540 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
