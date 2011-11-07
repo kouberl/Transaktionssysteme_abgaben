@@ -1,34 +1,34 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.11.2)  7 NOV 2011 11:03
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.2.28)  7 NOV 2011 19:12
 entering extended mode
- %&-line parsing enabled.
 **blatt03.tex
-(./blatt03.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2009/07/24 v3.04a KOMA-Script document class (article)
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+(C:\Users\matthias\Desktop\Uni\Transaktionssysteme\Transaktionssysteme_abgaben\
+blatt03.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\scrartcl.cls"
+Document Class: scrartcl 2010/02/15 v3.05 KOMA-Script document class (article)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
 
 Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+))) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2010/01/05 v3.04b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -43,14 +43,14 @@ Class scrartcl Info: File `scrsize11pt.clo' used instead of
 (scrartcl)           file `scrsize11.clo' to setup font sizes on input line 117
 1.
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (11p
-t)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\scrsize11pt.clo"
+File: scrsize11pt.clo 2010/02/15 v3.05 KOMA-Script font size class option (11pt
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
-Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\typearea.sty"
+Package: typearea 2010/02/15 v3.05 KOMA-Script package (type area)
 
-Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+Package typearea, 2010/02/15 v3.05 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -89,19 +89,19 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -251,7 +251,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -282,7 +282,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -306,28 +306,28 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks17
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen103
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -367,9 +367,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (./blatt03.aux)
-\openout1 = `blatt03.aux'.
-
+)
+(C:\Users\matthias\Desktop\Uni\Transaktionssysteme\Transaktionssysteme_abgaben\
+blatt03.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -554,24 +554,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./blatt03.aux) ) 
+{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}] [2]
+(C:\Users\matthias\Desktop\Uni\Transaktionssysteme\Transaktionssysteme_abgaben\
+blatt03.aux) ) 
 Here is how much of TeX's memory you used:
- 1958 strings out of 495061
- 26055 string characters out of 1182621
- 99013 words of memory out of 3000000
- 5153 multiletter control sequences out of 15000+50000
+ 1960 strings out of 495285
+ 26940 string characters out of 3179869
+ 99484 words of memory out of 3000000
+ 5177 multiletter control sequences out of 15000+200000
  9898 words of font info for 36 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 35i,6n,35p,248b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on blatt03.pdf (2 pages, 85849 bytes).
+ 14 hyphenation exceptions out of 8191
+ 35i,6n,35p,248b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
+C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on blatt03.pdf (2 pages, 86742 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
