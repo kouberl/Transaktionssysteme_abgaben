@@ -1,0 +1,141 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate,amsmath}
+
+\title{Transaktionssysteme -- Übungsblatt 4}
+\subtitle{Gruppe 1, Team Zoidberg}
+\author{Koppera Thomas \\ 51366
+ \and Treuberg Matthias \\ 51164}
+\date{ }
+
+\begin{document}
+  \maketitle
+  
+\section*{Aufgabe 1}
+
+\begin{tabular}[ht]{|c|c|c|c|c|c|}
+\hline  & Beginn der Trans. & Im Trans.-verl. & Direkt vor C/A & C/A- Zeitpunkt & Direkt nach C/A \\ 
+\hline 2PL & & rl,wl,r,w & ru,wu & c,a &  \\ 
+\hline S2PL &  & rl,wl,r,w & ru & c,a & wu \\ 
+\hline SS2PL &  & rl,wl,r,w & & c,a & ru,wu \\ 
+\hline C2PL & rl,wl & r,w & ru,wu & c,a &  \\ 
+\hline 
+\end{tabular} 
+
+
+\section*{Aufgabe 2}
+$S := r_1(x)r_1(y)w_2(x)r_3(y)r_4(x)c_1c_2c_3c_4$\\
+\begin{tabular}{|c|c|c|c|}
+\hline $rl_1(x)$ &  &  &  \\ 
+\hline $r_1(x)$ &  &  &  \\ 
+\hline $rl_1(y)$ &  &  &  \\ 
+\hline $rl_1(x)$ &  &  &  \\ 
+\hline  & $wl_2(y)$ &  &  \\ 
+\hline  & block & $rl_3(y)$ &  \\ 
+\hline  &  & $r_3(y)$ &  \\ 
+\hline  &  &  & $rl_4(x)$ \\ 
+\hline  &  &  & $r_4(x)$ \\ 
+\hline $ru_1(x)$ &  &  &  \\ 
+\hline $ru_1(y)$ &  &  &  \\ 
+\hline $c_1$ &  &  &  \\ 
+\hline  &  & $ru_3(y)$ &  \\ 
+\hline  &  & $c_3$ &  \\ 
+\hline  & $wl_2(y)$ &  &  \\ 
+\hline  & $w_2(y)$ &  &  \\ 
+\hline  & $wu_2(y)$ &  &  \\ 
+\hline  & $c_2$ &  &  \\ 
+\hline  &  &  & $ru_4(x)$ \\ 
+\hline  &  &  & $c_4$ \\ 
+\hline 
+\end{tabular}
+
+\section*{Aufgabe 3}
+
+$S := r_1(y)r_2(y)r_3(y)r_4(z)w_2(y)r_3(x)w_1(x)r_4(x)w_2(x)w_3(z)c_1c_2c_3c_4$\\
+\begin{tabular}{|c|c|c|c|}
+\hline $rl_1(y)$ &  &  &  \\ 
+\hline $r_1(y)$ &  &  &  \\ 
+\hline  & $rl_2(y)$ &  &  \\ 
+\hline  & $r_2(y)$ &  &  \\ 
+\hline  &  & $rl_3(y)$ &  \\ 
+\hline  &  & $r_3(y)$ &  \\ 
+\hline  &  &  & $rl_4(z)$ \\ 
+\hline  &  &  & $r_4(z)$ \\ 
+\hline  & $wl_2(y)$ &  &  \\ 
+\hline  & block & $rl_3(x)$ &  \\ 
+\hline  &  & $r_3(x)$ &  \\ 
+\hline $wl_1(x)$ &  &  &  \\ 
+\hline block &  &  & $rl_4(x)$ \\ 
+\hline  &  &  & $r_4(x)$ \\ 
+\hline  & $wl_2(x)$ &  &  \\ 
+\hline  & block & $wl_3(z)$ &  \\
+\hline  &  & block & $c_4$ \\ 
+\hline  &  &  & $ru_4(z)$ \\ 
+\hline  &  &  & $ru_4(x)$ \\ 
+\hline  &  & $wl_3(z)$ &  \\
+\hline  &  & $w_3(z)$ &  \\
+\hline  &  & $c_3$ &  \\
+\hline  &  & $ru_3(y)$ &  \\
+\hline  &  & $ru_3(x)$ &  \\
+\hline  &  & $wu_3(z)$ &  \\
+\hline  &  &  &  \\
+\hline  & $wl_2(y)$ &  &  \\
+\hline  & $w_2(y)$ &  &  \\
+\hline $wl_1(x)$ &  &  &  \\
+\hline $w_1(x)$ &  &  &  \\
+\hline $c_1$ &  &  &  \\
+\hline $ru_1(y)$ &  &  &  \\
+\hline $wu_1(x)$ &  &  &  \\
+\hline  & $wl_2(x)$ &  &  \\
+\hline  & $w_2(x)$ &  &  \\
+\hline  & $c_2$ &  &  \\
+\hline  & $ru_2(y)$ &  &  \\
+\hline  & $wu_2(x)$ &  &  \\
+\hline 
+\end{tabular} 
+
+\section*{Aufgabe 4}
+$S := r_1(x)r_3(z)w_1(y)r_2(y)w_1(x)r_3(x)w_3(z)w_2(z)w_3(x)c_1c_2c_3$
+
+\section*{Aufgabe 5}
+$S := w_1(x)r_2(y)w_2(x)w_1(y)c_1c_2$
+\begin{enumerate}[a)]
+\item
+$S^{2PL}_{out}$\\
+\begin{tabular}{|c|c|}
+\hline $wl_1(x)$ &  \\ 
+\hline $w_1(x)$ &  \\ 
+\hline  & $rl_2(y)$ \\ 
+\hline  & $r_2(y)$ \\ 
+\hline  & $wl_2(x)$ \\ 
+\hline $wl_1(y)$ & block \\ 
+\hline block &  \\ 
+\hline 
+\end{tabular} 
+
+\item
+$S^{C2PL}_{out}$\\
+\begin{tabular}{|c|c|}
+\hline $wl_1(x)$ &  \\ 
+\hline $wl_1(y)$ &  \\ 
+\hline $w_1(x)$ &  \\ 
+\hline $w_1(y)$ &  \\ 
+\hline $wu_1(x)$ &  \\
+\hline $wu_1(y)$ &  \\
+\hline $c_1$ &  \\ 
+\hline  & $rl_2(y)$ \\ 
+\hline  & $wl_2(x)$ \\ 
+\hline  & $r_2(y)$ \\ 
+\hline  & $w_2(x)$ \\
+\hline  & $ru_2(y)$ \\ 
+\hline  & $wu_2(x)$ \\
+\hline  & $c_2$ \\ 
+\hline 
+\end{tabular} 
+
+\item
+Vorteile: Kein Deadlock\\
+Nachteile: muss alle Operationen kennen, nicht generisch, komplexer\\
+\end{enumerate}
+\end{document}
+
