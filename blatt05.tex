@@ -1,0 +1,70 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate,amsmath}
+
+\title{Transaktionssysteme -- Übungsblatt 5}
+\subtitle{Gruppe 1, Team Zoidberg}
+\author{Koppera Thomas \\ 51366
+ \and Treuberg Matthias \\ 51164}
+\date{ }
+
+\begin{document}
+  \maketitle
+  
+\section*{Aufgabe 1}
+\begin{enumerate}[a)]
+\item
+\begin{tabular}{c|c|c|c|c}
+ & $r-TS(x)$ & $w-TS(x)$ & $r-TS(y)$ & $w-TS(y)$\\ 
+\hline
+  & 0 & 0 & 0 & 0 \\ 
+$w_1(x)$  &  & 1 &  &  \\ 
+$r_2(y)$  &  &  & 2 &  \\ 
+$r_1(x)$  & 1 &  &  &  \\ 
+$c_1$  &  &  &  &  \\ 
+$r_2(x)$  & 2 &  &  &  \\
+$w_2(y)$  &  &  &  & 2 \\ 
+$c_2$  &  &  &  &  \\
+\end{tabular}\\
+$S_{1_{out}}= S_1$
+\item
+\begin{tabular}{c|c|c}
+ & $r-TS(x)$ & $w-TS(x)$ \\ 
+\hline
+  & 0 & 0  \\ 
+$r_1(x)$  & 1 &    \\ 
+$r_2(x)$  & 2 &   \\ 
+$w_3(x)$  &  & 3   \\ 
+$w_4(x)$  &  & 4   \\ 
+$w_1(x)$ Abort &  &    \\
+$w_2(x)$ Abort &  &  \\
+$c_3$  &  &    \\ 
+$c_4$  &  &    \\ 
+\end{tabular}\\
+$S_{2_{out}}= w_3(x)w_4(x)c_3c_4$
+
+\end{enumerate}
+
+\section*{Aufgabe 2}
+~\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+\section*{Aufgabe 3}
+
+\begin{enumerate}[a)]
+\item
+~\\\\\\\\\\\\\\\\
+$S_{out}=r_1(x)r_1(y)w_1(x)w_1(y)c_1$
+
+\item
+~\\\\\\\\\\\\\\\\
+$S_{out}=r_1(x)r_1(y)w_1(x)w_1(y)c_1$
+
+\end{enumerate}
+
+\section*{Aufgabe 4}
+\begin{enumerate}[a)]
+\item
+\item
+\end{enumerate}
+\end{document}
+
