@@ -6,3 +6,6 @@
 *.aux
 *.pdf
 *.synctex.gz
+*.blg
+*.dvi
+*.bbl
